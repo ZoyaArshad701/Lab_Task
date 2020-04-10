@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFE"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/IV"
+        android:background="@drawable/icon"
+        android:foregroundGravity="left"
+        />
+    <EditText
+        android:id="@+id/EmailET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/IV"
+        android:hint="Enter Email Here"
+        android:inputType="textEmailAddress"
+        android:maxLength="20"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColorHighlight="#ffff"
+        android:textColorHint="#FFFF551F"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/PwdET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EmailET"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Enter Password Here"
+        android:inputType="textEmailAddress"
+        android:maxLength="20"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColorHighlight="#ffff"
+        android:textColorHint="#FFFF551F"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="300dp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@id/Signup"
+        android:background="#FFFFEB3B"
+        android:id="@+id/signin"
+        android:text="Sign In"
+        android:onClick="in"
+       />
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@id/PwdET"
+        android:background="#FFFFEB3B"
+        android:id="@+id/Signup"
+        android:text="Signup"
+        android:onClick="up"
+      />
+    <Button
+        android:layout_width="300dp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@id/signin"
+        android:background="#FFFFEB3B"
+        android:id="@+id/uploadPageLinkBtn"
+        android:text="My Cook-book"
+        android:onClick="openUploadPage"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "651180950618",
+    "firebase_url": "https://signup-46acb.firebaseio.com",
+    "project_id": "signup-46acb",
+    "storage_bucket": "signup-46acb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651180950618:android:103c86cf55530d2f1ec463",
+        "android_client_info": {
+          "package_name": "com.example.lab_task"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651180950618-k83qn16u5ovbafnlt7rjjgfp9qopf2qv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lab_task",
+            "certificate_hash": "84b8f8a23cff7c669a88bdcee54f8c320880a984"
+          }
+        },
+        {
+          "client_id": "651180950618-frm9jd4gcg588qhitfhlmt38r2lh9f08.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt6tv3m6M4p4v3HiexbkyppPXfagxMQEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651180950618-frm9jd4gcg588qhitfhlmt38r2lh9f08.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651180950618:android:0bfe06e3ede4f3671ec463",
+        "android_client_info": {
+          "package_name": "com.example.signup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651180950618-frm9jd4gcg588qhitfhlmt38r2lh9f08.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt6tv3m6M4p4v3HiexbkyppPXfagxMQEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651180950618-frm9jd4gcg588qhitfhlmt38r2lh9f08.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
